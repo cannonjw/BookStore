@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using BookStore.API.Models;
 
 namespace BookStore.API.Data
 {
@@ -12,5 +13,9 @@ namespace BookStore.API.Data
             : base(options)
         {
         }
+
+        public DbSet<Author> Authors { get; set; }
+        public DbSet<Book> Books { get; set; }
+        
     }
 }

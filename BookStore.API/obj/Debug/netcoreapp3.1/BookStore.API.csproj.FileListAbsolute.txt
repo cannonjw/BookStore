@@ -2,7 +2,6 @@
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/appsettings.json
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/BookStore.API.StaticWebAssets.xml
-/home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/app.db
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/BookStore.API
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/BookStore.API.deps.json
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/BookStore.API.runtimeconfig.json
@@ -83,3 +82,6 @@
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/NLog.dll
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/nlog.config
+/home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/app.db
+/home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/AutoMapper.dll
+/home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
