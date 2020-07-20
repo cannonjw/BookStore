@@ -1,0 +1,21 @@
+2020-07-20 14:15:19.0809 INFO GetAuthors
+2020-07-20 14:15:34.4354 INFO GetAuthor 1
+2020-07-20 14:33:46.8205 INFO GetAuthor 1
+2020-07-20 14:46:40.5263 INFO GetAuthors
+2020-07-20 14:47:03.4002 INFO GetAuthor 1
+2020-07-20 14:47:51.6067 INFO GetAuthor 1
+2020-07-20 14:48:02.0483 INFO GetAuthors
+2020-07-20 14:49:41.2056 INFO GetAuthors
+2020-07-20 14:51:15.0917 INFO GetAuthors
+2020-07-20 14:57:22.7403 INFO GetAuthor 1
+2020-07-20 14:57:23.6060 WARN Author with Id: 1 not found
+2020-07-20 15:22:07.8174 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Author
+System.Object -> BookStore.API.Models.Author
+
+2020-07-20 15:23:30.4491 INFO Author Created
+2020-07-20 15:24:16.0518 INFO GetAuthor 1
+2020-07-20 15:26:19.2042 INFO Author Created
+2020-07-20 15:27:18.9149 INFO GetAuthors
