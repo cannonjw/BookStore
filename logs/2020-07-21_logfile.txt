@@ -1,0 +1,17 @@
+2020-07-21 08:29:05.4243 INFO GetAuthor 2
+2020-07-21 08:30:21.4173 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Author
+System.Object -> BookStore.API.Models.Author
+
+2020-07-21 08:33:26.9058 INFO GetAuthor 2
+2020-07-21 08:52:30.8584 INFO GetAuthors
+2020-07-21 08:52:38.0239 INFO GetAuthor 2
+2020-07-21 08:52:38.0409 WARN Author with Id: 2 not found
+2020-07-21 08:52:50.5793 INFO Author Created
+2020-07-21 08:53:00.0632 INFO GetAuthors
+2020-07-21 09:01:05.5827 ERROR Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+
+2020-07-21 09:01:56.3826 WARN Author is not found
+2020-07-21 09:03:00.0199 WARN Author is not found for Id: 2

@@ -106,6 +106,74 @@ namespace BookStore.API.Controllers
             }
         }
 
+        [HttpPut("{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent )]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> Update(int id, [FromBody]AuthorForUpdateDto author)
+        {
+            try
+            {
+                if (id < 1 || author == null || id != author.Id)
+                {
+                    _logger.LogWarn("Invalid Id or Update Detail {id}[{author}]");
+                    return BadRequest();
+                }
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+                if (!await _authorRepository.isExist(id))
+                {
+                    _logger.LogWarn($"Author is not found for Id: {id}");
+                    return NotFound($"Author is not found for Id: {id}");
+                }
+
+                var authorToUpdate = _mapper.Map<Author>(author);
+                var IsSuccess = await _authorRepository.Update(authorToUpdate);
+                if (!IsSuccess)
+                {
+                    return InternalError($"Update Operation Failed");
+                }
+                return NoContent();
+            } catch (Exception _ex)
+            {
+                return InternalError($"{_ex.Message}\n{_ex.InnerException}");
+            }
+        }
+
+        [HttpDelete("{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent )]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> Delete(int id)
+        {
+            try
+            {
+                if (id < 0)
+                {
+                    _logger.LogWarn("You must supply an Id");
+                    return BadRequest();
+                }
+                var author = await _authorRepository.FindById(id);
+                if (author == null)
+                {
+                    _logger.LogWarn($"Author is not found for Id: {id}");
+                    return NotFound($"Author is not found for Id: {id}");
+                }
+                var IsSuccess = await _authorRepository.Delete(author);
+                if (!IsSuccess)
+                {
+                    _logger.LogWarn("Delete failed");
+                    return InternalError("Delete failed.  Please see Administrator");
+                }
+                return NoContent();
+            } catch (Exception _ex)
+            {
+                return InternalError($"{_ex.Message}\n{_ex.InnerException}");
+            }
+        }
+
         private ObjectResult InternalError(string message)
         {
             _logger.LogError(message);
