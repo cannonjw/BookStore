@@ -14,61 +14,60 @@ namespace BookStore.API.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    public class AuthorsController : Controller
+    public class BooksController : Controller
     {
-        private readonly IAuthorRepository _authorRepository;
-        private readonly ILoggerService _logger;
+        private readonly IBookRepository _bookRepository;
         private readonly IMapper _mapper;
-        public AuthorsController(IAuthorRepository authorRepository, ILoggerService loggerService, IMapper mapper)
+        private readonly ILoggerService _logger;
+        public BooksController(IBookRepository bookRepository, IMapper mapper, ILoggerService logger)
         {
+            _logger = logger;
             _mapper = mapper;
-            _logger = loggerService;
-            _authorRepository = authorRepository;
+            _bookRepository = bookRepository;
         }
 
         [HttpGet]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<IActionResult> GetAuthors()
+        public async Task<IActionResult> GetBooks()
         {
+            var location = GetControllerActionNames();
             try
             {
-                _logger.LogInfo("GetAuthors");
-                var authors = await _authorRepository.FindAll();
-                if (authors == null || authors.Count == 0)
+                _logger.LogInfo($" {location}\nGet Books");
+                var books = await _bookRepository.FindAll();
+                if (books == null || books.Count == 0)
                 {
+                    _logger.LogWarn($" {location} \n No Books Found");
                     return NotFound();
                 }
-                var response = _mapper.Map<IList<AuthorDto>>(authors);
+                var response = _mapper.Map<IList<BookDto>>(books);
                 
                 return Ok(response);
-
             } catch (Exception _ex)
             {
-                return InternalError($"Error getting authors\n{_ex.Message}\n {_ex.InnerException}");
+                return InternalError($"\b{location}\n{_ex.Message}\n{_ex.InnerException}");
             }
         }
 
         [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<IActionResult> GetAuthor(int id)
+        public async Task<IActionResult> GetBook(int id)
         {
+            var location = GetControllerActionNames();
             try
             {
-                _logger.LogInfo($"GetAuthor {id}");
-                var author = await _authorRepository.FindById(id);
-                if (author == null)
+                _logger.LogInfo($" {location}: Attempted call for id: {id}");
+                var book = await _bookRepository.FindById(id);
+                if (book == null)
                 {
-                    _logger.LogWarn($"Author with Id: {id} not found");
-                    return NotFound();
+                    _logger.LogWarn($" {location}: Book with Id: {id} failed.");
+                    return NotFound($" {location}: Book with Id: {id} failed.");
                 }
-                var response = _mapper.Map<AuthorDto>(author);
-
+                var response = _mapper.Map<BookDto>(book);
                 return Ok(response);
             } catch (Exception _ex)
             {
-                return InternalError($"Error getting authorId: {id}\n{_ex.Message}\n{_ex.InnerException}");
+                return InternalError($"\b{location}\n{_ex.Message}\n{_ex.InnerException}");
             }
         }
 
@@ -76,30 +75,31 @@ namespace BookStore.API.Controllers
         [ProducesResponseType(StatusCodes.Status201Created )]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> CreateAuthor([FromBody]AuthorForCreateDto author)
+
+        public async Task<IActionResult> CreateBook([FromBody]BookForCreateDto bookForCreateDto)
         {
+            var location = GetControllerActionNames();
             try
             {
-                if (author == null)
+                _logger.LogInfo($" {location}: Creating Book");
+                if (bookForCreateDto == null)
                 {
-                    _logger.LogWarn("Empty request was submitted");
+                    _logger.LogWarn($" {location}: Empty Request was submitted");
                     return BadRequest(ModelState);
                 }
                 if (!ModelState.IsValid)
                 {
-                    _logger.LogWarn("Invalid data received");
+                    _logger.LogWarn($" {location}: Data was incomplete");
                     return BadRequest(ModelState);
                 }
-                var authorForCreate = _mapper.Map<Author>(author);
-                var IsSuccess = await _authorRepository.Create(authorForCreate);
+                var book = _mapper.Map<Book>(bookForCreateDto);
+                var IsSuccess = await _bookRepository.Create(book);
                 if (!IsSuccess)
                 {
-                    _logger.LogError("Author Creation Failed");
-                    return  InternalError("Author Creation Failed");
+                   return InternalError($" {location}: Creation Failed");
+                    
                 }
-                _logger.LogInfo("Author Created");
-                return Created("Create", new { author });
-
+                return Created("Create", new { book });
             } catch (Exception _ex)
             {
                 return InternalError($"{_ex.Message}\n{_ex.InnerException}");
@@ -110,30 +110,33 @@ namespace BookStore.API.Controllers
         [ProducesResponseType(StatusCodes.Status204NoContent )]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> Update(int id, [FromBody]AuthorForUpdateDto author)
+
+        public async Task<IActionResult> UpdateBook(int id,[FromBody]BookForUpdateDto bookForUpdateDto)
         {
+            var location = GetControllerActionNames();
             try
             {
-                if (id < 1 || author == null || id != author.Id)
+                _logger.LogInfo($" {location}: Update Book");
+                if (id < 1 || bookForUpdateDto == null || id != bookForUpdateDto.Id)
                 {
-                    _logger.LogWarn("Invalid Id or Update Detail {id}[{author}]");
-                    return BadRequest();
+                    _logger.LogWarn($" {location}: Empty Request was submitted");
+                    return BadRequest(ModelState);
                 }
                 if (!ModelState.IsValid)
                 {
+                    _logger.LogWarn($" {location}: Data was incomplete");
                     return BadRequest(ModelState);
                 }
-                if (!await _authorRepository.isExist(id))
+                if (! await _bookRepository.isExist(id))
                 {
-                    _logger.LogWarn($"Author is not found for Id: {id}");
-                    return NotFound($"Author is not found for Id: {id}");
+                    _logger.LogWarn($" {location}: Book does not exist");
+                    return NotFound($" {location}: Book does not exist");
                 }
-
-                var authorToUpdate = _mapper.Map<Author>(author);
-                var IsSuccess = await _authorRepository.Update(authorToUpdate);
+                var book = _mapper.Map<Book>(bookForUpdateDto);
+                var IsSuccess = await _bookRepository.Update(book);
                 if (!IsSuccess)
                 {
-                    return InternalError($"Update Operation Failed");
+                   return InternalError($" {location}: Update Failed for Record Id: {id}");
                 }
                 return NoContent();
             } catch (Exception _ex)
@@ -148,25 +151,28 @@ namespace BookStore.API.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> Delete(int id)
         {
+            var location = GetControllerActionNames();
             try
             {
+                _logger.LogInfo($" {location}: Starting Delete {id}");
                 if (id < 1)
                 {
-                    _logger.LogWarn("You must supply an Id");
+                    _logger.LogWarn($" {location}: You must supply an Id");
                     return BadRequest();
                 }
-                var author = await _authorRepository.FindById(id);
-                if (author == null)
+                var book = await _bookRepository.FindById(id);
+                if (book == null)
                 {
-                    _logger.LogWarn($"Author is not found for Id: {id}");
-                    return NotFound($"Author is not found for Id: {id}");
+                    _logger.LogWarn($" {location}: Book is not found for Id: {id}");
+                    return NotFound($" {location}: Book is not found for Id: {id}");
                 }
-                var IsSuccess = await _authorRepository.Delete(author);
+                var IsSuccess = await _bookRepository.Delete(book);
                 if (!IsSuccess)
                 {
-                    _logger.LogWarn("Delete failed");
+                    _logger.LogWarn($" {location}: Delete failed");
                     return InternalError("Delete failed.  Please see Administrator");
                 }
+                _logger.LogInfo($" {location}: Delete Success!");
                 return NoContent();
             } catch (Exception _ex)
             {
@@ -179,12 +185,12 @@ namespace BookStore.API.Controllers
             var action = ControllerContext.ActionDescriptor.ActionName;
             return $"{controller} - {action}";
         }
-
         private ObjectResult InternalError(string message)
         {
             _logger.LogError(message);
             return StatusCode(500, "Something went wrong, please contact an Administrator");
         }
+
 
     }
 }
