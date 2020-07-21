@@ -63,3 +63,9 @@ Get Books
 2020-07-21 13:06:24.1321 INFO  Books - CreateBook: Creating Book
 2020-07-21 13:39:58.0959 INFO  Books - GetBooks
 Get Books
+2020-07-21 15:30:38.1536 INFO  Users - Login User Bob Attempting to login
+2020-07-21 15:30:38.2327 WARN  Users - Login User Bob login failed
+2020-07-21 15:30:56.8319 INFO  Users - Login User Admin Attempting to login
+2020-07-21 15:30:56.9619 INFO  Users - Login User Admin login was successful
+2020-07-21 15:34:29.8234 INFO  Users - Login User Admin Attempting to login
+2020-07-21 15:34:30.0119 INFO  Users - Login User Admin login was successful
