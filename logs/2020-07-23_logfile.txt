@@ -1,0 +1,10 @@
+2020-07-23 08:05:29.9334 INFO GetAuthors
+2020-07-23 08:05:42.1993 INFO  Books - GetBooks
+Get Books
+2020-07-23 08:06:20.6844 INFO Users - Login: Login Attempt from user Admin 
+2020-07-23 08:06:20.8308 INFO Users - Login: Admin Successfully Authenticated
+2020-07-23 08:06:20.8333 INFO Users - Login: Generating Token
+2020-07-23 08:07:05.5375 INFO Users - Login: Login Attempt from user Customer 
+2020-07-23 08:07:05.5663 INFO Users - Login: Customer Successfully Authenticated
+2020-07-23 08:07:05.5663 INFO Users - Login: Generating Token
+2020-07-23 08:07:36.4604 INFO GetAuthors

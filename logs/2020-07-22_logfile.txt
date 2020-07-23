@@ -1,0 +1,75 @@
+2020-07-22 08:05:07.8896 INFO  Users - Login User Admin Attempting to login
+2020-07-22 08:05:08.2267 INFO  Users - Login User Admin login was successful
+2020-07-22 10:19:15.6764 INFO  Users - Login User Admin Attempting to login
+2020-07-22 10:19:15.9938 INFO  Users - Login User Admin login was successful
+2020-07-22 10:32:51.1730 INFO GetAuthors
+2020-07-22 10:33:52.7960 INFO  Users - Login User Customer Attempting to login
+2020-07-22 10:33:52.8237 WARN  Users - Login User Customer login failed
+2020-07-22 10:34:16.4258 INFO  Users - Login User cannonjw Attempting to login
+2020-07-22 10:34:16.5606 INFO  Users - Login User cannonjw login was successful
+2020-07-22 10:36:14.6214 INFO  Users - Login User Admin Attempting to login
+2020-07-22 10:36:14.6991 INFO  Users - Login User Admin login was successful
+2020-07-22 10:37:56.0663 INFO  Users - Login User cannonjw Attempting to login
+2020-07-22 10:37:56.2885 INFO  Users - Login User cannonjw login was successful
+2020-07-22 10:39:37.0961 INFO  Users - Login User cannonjw Attempting to login
+2020-07-22 10:39:37.3053 INFO  Users - Login User cannonjw login was successful
+2020-07-22 11:02:00.3555 INFO  Users - Login User cannonjw Attempting to login
+2020-07-22 11:02:00.5677 INFO  Users - Login User cannonjw login was successful
+2020-07-22 11:54:43.2385 INFO  Users - Login User cannonjw Attempting to login
+2020-07-22 11:54:43.4431 INFO  Users - Login User cannonjw login was successful
+2020-07-22 11:55:39.0008 INFO  Users - Login User Admin Attempting to login
+2020-07-22 11:55:39.0468 INFO  Users - Login User Admin login was successful
+2020-07-22 12:13:11.5915 INFO  Users - Login User Admin Attempting to login
+2020-07-22 12:13:11.8412 INFO  Users - Login User Admin login was successful
+2020-07-22 12:31:44.9748 INFO Users - Login: Login Attempt from user Admin 
+2020-07-22 12:31:45.1898 INFO Users - Login: Admin Successfully Authenticated
+2020-07-22 12:31:45.1942 INFO Users - Login: Generating Token
+2020-07-22 12:31:45.1998 ERROR Users - Login: Object reference not set to an instance of an object. - 
+2020-07-22 12:32:26.3376 INFO Users - Login: Login Attempt from user Admin 
+2020-07-22 12:32:26.5553 INFO Users - Login: Admin Successfully Authenticated
+2020-07-22 12:32:26.5581 INFO Users - Login: Generating Token
+2020-07-22 12:41:08.3541 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-07-22 12:41:08.4312 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-07-22 12:52:25.9985 INFO Users - Login: Login Attempt from user  
+2020-07-22 12:52:26.0292 ERROR Users - Login: Value cannot be null. (Parameter 'userName') - 
+2020-07-22 12:52:35.4629 INFO Users - Login: Login Attempt from user Admin 
+2020-07-22 12:52:35.6422 INFO Users - Login: Admin Successfully Authenticated
+2020-07-22 12:52:35.6422 INFO Users - Login: Generating Token
+2020-07-22 13:16:26.8605 INFO Users - Login: Login Attempt from user Admin 
+2020-07-22 13:16:27.0802 INFO Users - Login: Admin Successfully Authenticated
+2020-07-22 13:16:27.0838 INFO Users - Login: Generating Token
+2020-07-22 13:38:55.5402 INFO Users - Login: Login Attempt from user Admin 
+2020-07-22 13:38:55.7512 INFO Users - Login: Admin Successfully Authenticated
+2020-07-22 13:38:55.7543 INFO Users - Login: Generating Token
+2020-07-22 14:10:54.6565 INFO Users - Login: Login Attempt from user Admin 
+2020-07-22 14:10:54.8908 INFO Users - Login: Admin Successfully Authenticated
+2020-07-22 14:10:54.8941 INFO Users - Login: Generating Token
+2020-07-22 14:42:30.6788 INFO Users - Login: Login Attempt from user Admin 
+2020-07-22 14:42:30.8859 INFO Users - Login: Admin Successfully Authenticated
+2020-07-22 14:42:30.8859 INFO Users - Login: Generating Token
+2020-07-22 14:43:09.7276 INFO Author Created
+2020-07-22 14:50:20.2931 INFO Users - Login: Login Attempt from user Customer 
+2020-07-22 14:50:20.3714 INFO Users - Login: Customer Not Authenticated
+2020-07-22 14:51:14.2921 INFO Users - Login: Login Attempt from user Customer 
+2020-07-22 14:51:14.4875 INFO Users - Login: Customer Successfully Authenticated
+2020-07-22 14:51:14.4911 INFO Users - Login: Generating Token
+2020-07-22 15:07:11.1821 INFO Users - Login: Login Attempt from user Customer 
+2020-07-22 15:07:11.3875 INFO Users - Login: Customer Successfully Authenticated
+2020-07-22 15:07:11.3910 INFO Users - Login: Generating Token
+2020-07-22 15:10:56.6565 INFO  Books - GetBook: Attempted call for id: 2
+2020-07-22 15:10:56.7720 WARN  Books - GetBook: Book with Id: 2 failed.
+2020-07-22 15:11:06.1662 INFO  Books - GetBook: Attempted call for id: 1
+2020-07-22 15:11:15.3334 INFO  Books - GetBooks
+Get Books
+2020-07-22 15:11:23.0120 INFO  Books - GetBook: Attempted call for id: 3
+2020-07-22 15:12:10.9682 INFO  Books - UpdateBook: Update Book
+2020-07-22 15:12:27.2277 INFO  Books - GetBooks
+Get Books
+2020-07-22 15:12:43.1677 INFO  Books - UpdateBook: Update Book
+2020-07-22 15:12:56.5190 INFO  Books - GetBooks
+Get Books
+2020-07-22 15:14:00.3957 INFO Users - Login: Login Attempt from user Customer 
+2020-07-22 15:14:00.5188 INFO Users - Login: Customer Successfully Authenticated
+2020-07-22 15:14:00.5224 INFO Users - Login: Generating Token
+2020-07-22 15:14:21.3439 WARN Author is not found for Id: 2
+2020-07-22 15:14:54.6149 INFO GetAuthors

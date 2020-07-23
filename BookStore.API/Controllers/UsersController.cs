@@ -1,13 +1,19 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using BookStore.API.Contracts;
 using BookStore.API.Dtos;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using System.Security.Claims;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace BookStore.API.Controllers
 {
@@ -18,11 +24,15 @@ namespace BookStore.API.Controllers
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ILoggerService _logger;
+        private readonly IConfiguration _config;
+
         public UsersController(SignInManager<IdentityUser> signInManager, 
                                 UserManager<IdentityUser> userManager,
-                                ILoggerService logger)
+                                ILoggerService logger,
+                                IConfiguration config)
         {
             _logger = logger;
+            _config = config;
             _signInManager = signInManager;
             _userManager = userManager;
         }
@@ -31,25 +41,51 @@ namespace BookStore.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Login([FromBody] UserDto userDto)
         {
+            var location = GetControllerActionNames();
             try
             {
-                var location = GetControllerActionNames();
-                _logger.LogInfo($" {location} User {userDto.Username} Attempting to login");
+                _logger.LogInfo($"{location}: Login Attempt from user {userDto.Username} ");
                 var result = await _signInManager.PasswordSignInAsync(userDto.Username, userDto.Password, false, false);
+
                 if (result.Succeeded)
                 {
-                    _logger.LogInfo($" {location} User {userDto.Username} login was successful");
+                    _logger.LogInfo($"{location}: {userDto.Username} Successfully Authenticated");
                     var user = await _userManager.FindByNameAsync(userDto.Username);
-                    return Ok(user);
+                    _logger.LogInfo($"{location}: Generating Token");
+                    var tokenString = await GenerateJSONWebToken(user);
+                    // return Ok(user);
+                    return Ok(new { token = tokenString });
                 }
-                _logger.LogWarn($" {location} User {userDto.Username} login failed");
-
+                _logger.LogInfo($"{location}: {userDto.Username} Not Authenticated");
                 return Unauthorized(userDto);
-
-            } catch (Exception _ex)
-            {
-                return InternalError($"{_ex.Message}\n{_ex.InnerException}");
             }
+            catch (Exception e)
+            {
+                return InternalError($"{location}: {e.Message} - {e.InnerException}");
+            }
+        }
+
+        private async Task<string> GenerateJSONWebToken(IdentityUser user)
+        {
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+            var claims = new List<Claim>
+            {
+                new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim(ClaimTypes.NameIdentifier, user.Id),
+            };
+            var roles = await _userManager.GetRolesAsync(user);
+            claims.AddRange(roles.Select(r => new Claim(ClaimsIdentity.DefaultRoleClaimType, r)));
+
+            var token = new JwtSecurityToken(_config["Jwt:Issuer"],
+                _config["Jwt:Issuer"],
+                claims,
+                null,
+                expires: DateTime.Now.AddHours(5),
+                signingCredentials: credentials
+            );
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
         private string GetControllerActionNames() {

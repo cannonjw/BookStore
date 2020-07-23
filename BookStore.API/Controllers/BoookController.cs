@@ -6,6 +6,7 @@ using AutoMapper;
 using BookStore.API.Contracts;
 using BookStore.API.Dtos;
 using BookStore.API.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,6 +14,7 @@ namespace BookStore.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     [ProducesResponseType(StatusCodes.Status200OK)]
     public class BooksController : Controller
     {
@@ -72,6 +74,7 @@ namespace BookStore.API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Administrator")]
         [ProducesResponseType(StatusCodes.Status201Created )]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
@@ -107,6 +110,7 @@ namespace BookStore.API.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Administrator")]
         [ProducesResponseType(StatusCodes.Status204NoContent )]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
@@ -146,6 +150,7 @@ namespace BookStore.API.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Administrator")]
         [ProducesResponseType(StatusCodes.Status204NoContent )]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]

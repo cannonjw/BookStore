@@ -39,6 +39,20 @@ namespace BookStore.API.Data
                     await userManager.AddToRoleAsync(user, "Customer");
                 }
             }
+            if (await userManager.FindByEmailAsync("customer@kahnsoft.com") == null)
+            {
+                var user = new IdentityUser
+                {
+                    UserName = "customer",
+                    Email = "customer@kahnsoft.com"
+                };
+                var result = await userManager.CreateAsync(user,"P@$$w0rd");
+                if (result.Succeeded)
+                {
+                    await userManager.AddToRoleAsync(user, "Customer");
+                }
+            }
+
 
         }
 

@@ -4,19 +4,21 @@
     <UserSecretsId>aspnet-BookStore.API-8DB017E1-DA4A-42B1-B4BB-C96E07BAA292</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
-    <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true"/>
+    <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.5"/>
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.5"/>
-    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.5"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.5"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5"/>
-    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.5.1"/>
-    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.5.1"/>
-    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="5.5.1"/>
-    <PackageReference Include="NLog.Extensions.Logging" Version="1.6.4"/>
-    <PackageReference Include="AutoMapper" Version="10.0.0"/>
-    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1"/>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="1.6.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.5.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.5.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="5.5.1" />
   </ItemGroup>
 </Project>
