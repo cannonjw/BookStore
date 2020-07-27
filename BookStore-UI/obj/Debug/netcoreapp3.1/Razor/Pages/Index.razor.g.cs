@@ -72,6 +72,34 @@ using BookStore_UI.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "/home/cannonjw/Projects/BookStore/BookStore-UI/_Imports.razor"
+using BookStore_UI.Static;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "/home/cannonjw/Projects/BookStore/BookStore-UI/_Imports.razor"
+using BookStore_UI.Services;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "/home/cannonjw/Projects/BookStore/BookStore-UI/_Imports.razor"
+using BookStore_UI.Contracts;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 13 "/home/cannonjw/Projects/BookStore/BookStore-UI/_Imports.razor"
+using BookStore_UI.Models;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {

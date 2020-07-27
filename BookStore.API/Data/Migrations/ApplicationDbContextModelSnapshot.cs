@@ -269,7 +269,7 @@ namespace BookStore.API.Data.Migrations
             modelBuilder.Entity("BookStore.API.Models.Book", b =>
                 {
                     b.HasOne("BookStore.API.Models.Author", "Author")
-                        .WithMany()
+                        .WithMany("Books")
                         .HasForeignKey("AuthorId");
                 });
 

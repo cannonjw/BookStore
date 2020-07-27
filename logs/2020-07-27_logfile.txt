@@ -36,3 +36,56 @@
 2020-07-27 10:29:57.2606 INFO Users - Login: Login Attempt from user mike@kahnsoft.org 
 2020-07-27 10:29:57.3290 INFO Users - Login: mike@kahnsoft.org Successfully Authenticated
 2020-07-27 10:29:57.3290 INFO Users - Login: Generating Token
+2020-07-27 12:16:37.6666 INFO GetAuthors
+2020-07-27 12:26:35.3337 INFO GetAuthors
+2020-07-27 12:55:37.4222 INFO GetAuthors
+2020-07-27 12:55:41.9782 INFO GetAuthors
+2020-07-27 12:55:44.9182 INFO GetAuthors
+2020-07-27 13:16:15.1041 INFO GetAuthors
+2020-07-27 13:20:31.9142 INFO GetAuthors
+2020-07-27 13:20:33.5279 INFO GetAuthor 1
+2020-07-27 13:46:30.0520 INFO Users - Login: Login Attempt from user mike@kahnsoft.com 
+2020-07-27 13:46:30.1320 INFO Users - Login: mike@kahnsoft.com Not Authenticated
+2020-07-27 13:46:53.3640 INFO Users - Login: Login Attempt from user mike@kahnsoft.com 
+2020-07-27 13:46:53.3924 INFO Users - Login: mike@kahnsoft.com Not Authenticated
+2020-07-27 13:47:16.2984 INFO Users - Login: Login Attempt from user cannonjw@gmail.com 
+2020-07-27 13:47:16.3061 INFO Users - Login: cannonjw@gmail.com Not Authenticated
+2020-07-27 13:49:19.1978 INFO Users - Login: Login Attempt from user mike@kahnsoft.org 
+2020-07-27 13:49:19.3240 INFO Users - Login: mike@kahnsoft.org Successfully Authenticated
+2020-07-27 13:49:19.3266 INFO Users - Login: Generating Token
+2020-07-27 13:49:48.5372 INFO  Books - GetBooks
+Get Books
+2020-07-27 13:50:27.0193 INFO GetAuthor 1
+2020-07-27 13:54:56.0679 INFO GetAuthor 1
+2020-07-27 13:56:16.3816 INFO GetAuthor 1
+2020-07-27 14:09:04.3131 INFO GetAuthor 1
+2020-07-27 14:10:10.9705 INFO GetAuthors
+2020-07-27 14:10:13.2524 INFO GetAuthor 1
+2020-07-27 14:13:14.1357 INFO GetAuthors
+2020-07-27 14:13:16.0256 INFO GetAuthor 1
+2020-07-27 14:13:18.2362 INFO GetAuthors
+2020-07-27 14:13:30.1915 INFO GetAuthor 1
+2020-07-27 14:13:35.1801 INFO GetAuthors
+2020-07-27 14:13:37.0389 INFO GetAuthor 3
+2020-07-27 14:13:39.9377 INFO GetAuthors
+2020-07-27 14:41:04.9559 INFO GetAuthors
+2020-07-27 14:41:06.9762 INFO GetAuthor 1
+2020-07-27 14:41:45.5487 INFO GetAuthors
+2020-07-27 14:45:17.7366 INFO GetAuthor 1
+2020-07-27 14:50:11.9595 INFO GetAuthors
+2020-07-27 14:50:13.7197 INFO GetAuthor 1
+2020-07-27 14:53:45.0700 INFO GetAuthors
+2020-07-27 14:53:46.5169 INFO GetAuthor 1
+2020-07-27 14:54:44.2640 INFO GetAuthors
+2020-07-27 14:54:47.0027 INFO GetAuthor 1
+2020-07-27 14:54:50.8574 INFO GetAuthors
+2020-07-27 14:59:18.6445 INFO GetAuthors
+2020-07-27 14:59:20.6261 INFO GetAuthor 1
+2020-07-27 14:59:30.7117 INFO GetAuthors
+2020-07-27 14:59:33.3506 INFO GetAuthor 1
+2020-07-27 14:59:35.3941 INFO GetAuthors
+2020-07-27 15:16:54.7551 INFO GetAuthors
+2020-07-27 15:16:58.3530 INFO GetAuthor 3
+2020-07-27 15:17:04.8265 INFO GetAuthors
+2020-07-27 15:17:10.8296 INFO GetAuthor 1
+2020-07-27 15:17:13.3836 INFO GetAuthors

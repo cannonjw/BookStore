@@ -36,12 +36,12 @@ namespace BookStore_UI
             services.AddServerSideBlazor();
             services.AddBlazoredLocalStorage();
             
-            services.AddSingleton<WeatherForecastService>();
             services.AddHttpClient();
             services.AddScoped<ApiAuthenticationStateProvider>();
             services.AddScoped<AuthenticationStateProvider>(p => p.GetRequiredService<ApiAuthenticationStateProvider>());
             services.AddScoped<JwtSecurityTokenHandler>();
             services.AddTransient<IAuthenticationRepository, AuthenticationRepository>();
+            services.AddTransient<IAuthorRepository, AuthorRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

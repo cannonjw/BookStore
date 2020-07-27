@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace BookStore.API.Models
 {
     public class Author
@@ -6,5 +8,6 @@ namespace BookStore.API.Models
         public string Firstname { get; set; }
         public string Lastname { get; set; }
         public string Bio { get; set; }
+        public virtual IList<Book> Books { get; set; }
     }
 }

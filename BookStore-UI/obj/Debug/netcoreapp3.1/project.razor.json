@@ -13,6 +13,55 @@
     "TagHelpers": [
       {
         "Kind": "Components.Component",
+        "Name": "BookStore_UI.App",
+        "AssemblyName": "BookStore-UI",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BookStore_UI.App"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BookStore_UI.App",
+        "AssemblyName": "BookStore-UI",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BookStore_UI.App",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BookStore_UI.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
         "Name": "BookStore_UI.Pages.Counter",
         "AssemblyName": "BookStore-UI",
         "Documentation": null,
@@ -209,6 +258,55 @@
       },
       {
         "Kind": "Components.Component",
+        "Name": "BookStore_UI.Pages.Users.Login",
+        "AssemblyName": "BookStore-UI",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Login",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BookStore_UI.Pages.Users.Login"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BookStore_UI.Pages.Users.Login",
+        "AssemblyName": "BookStore-UI",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BookStore_UI.Pages.Users.Login",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BookStore_UI.Pages.Users.Login",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
         "Name": "BookStore_UI.Pages.Users.Logout",
         "AssemblyName": "BookStore-UI",
         "Documentation": null,
@@ -307,63 +405,93 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "BookStore_UI.Pages.Users.Login",
+        "Name": "BookStore_UI.Pages.Authors.Edit",
         "AssemblyName": "BookStore-UI",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Login",
+            "TagName": "Edit",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
           }
         ],
-        "BoundAttributes": [],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BookStore_UI.Pages.Users.Login"
+          "Common.TypeName": "BookStore_UI.Pages.Authors.Edit"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "BookStore_UI.Pages.Users.Login",
+        "Name": "BookStore_UI.Pages.Authors.Edit",
         "AssemblyName": "BookStore-UI",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BookStore_UI.Pages.Users.Login",
+            "TagName": "BookStore_UI.Pages.Authors.Edit",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
           }
         ],
-        "BoundAttributes": [],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BookStore_UI.Pages.Users.Login",
+          "Common.TypeName": "BookStore_UI.Pages.Authors.Edit",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "BookStore_UI.Shared.SurveyPrompt",
+        "Name": "BookStore_UI.Pages.Authors.View",
         "AssemblyName": "BookStore-UI",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt",
+            "TagName": "View",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -373,7 +501,7 @@
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Title",
+            "Name": "Id",
             "TypeName": "System.String",
             "IsEnum": false,
             "IndexerNamePrefix": null,
@@ -381,7 +509,7 @@
             "Documentation": null,
             "Diagnostics": [],
             "Metadata": {
-              "Common.PropertyName": "Title"
+              "Common.PropertyName": "Id"
             },
             "BoundAttributeParameters": []
           }
@@ -390,19 +518,19 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BookStore_UI.Shared.SurveyPrompt"
+          "Common.TypeName": "BookStore_UI.Pages.Authors.View"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "BookStore_UI.Shared.SurveyPrompt",
+        "Name": "BookStore_UI.Pages.Authors.View",
         "AssemblyName": "BookStore-UI",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BookStore_UI.Shared.SurveyPrompt",
+            "TagName": "BookStore_UI.Pages.Authors.View",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -412,7 +540,7 @@
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Title",
+            "Name": "Id",
             "TypeName": "System.String",
             "IsEnum": false,
             "IndexerNamePrefix": null,
@@ -420,7 +548,7 @@
             "Documentation": null,
             "Diagnostics": [],
             "Metadata": {
-              "Common.PropertyName": "Title"
+              "Common.PropertyName": "Id"
             },
             "BoundAttributeParameters": []
           }
@@ -429,7 +557,135 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BookStore_UI.Shared.SurveyPrompt",
+          "Common.TypeName": "BookStore_UI.Pages.Authors.View",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BookStore_UI.Pages.Authors.Delete",
+        "AssemblyName": "BookStore-UI",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Delete",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BookStore_UI.Pages.Authors.Delete"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BookStore_UI.Pages.Authors.Delete",
+        "AssemblyName": "BookStore-UI",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BookStore_UI.Pages.Authors.Delete",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BookStore_UI.Pages.Authors.Delete",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BookStore_UI.Pages.Authors.Index",
+        "AssemblyName": "BookStore-UI",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BookStore_UI.Pages.Authors.Index"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BookStore_UI.Pages.Authors.Index",
+        "AssemblyName": "BookStore-UI",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BookStore_UI.Pages.Authors.Index",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BookStore_UI.Pages.Authors.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -616,50 +872,80 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "BookStore_UI.App",
+        "Name": "BookStore_UI.Shared.SurveyPrompt",
         "AssemblyName": "BookStore-UI",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App",
+            "TagName": "SurveyPrompt",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
           }
         ],
-        "BoundAttributes": [],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BookStore_UI.App"
+          "Common.TypeName": "BookStore_UI.Shared.SurveyPrompt"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "BookStore_UI.App",
+        "Name": "BookStore_UI.Shared.SurveyPrompt",
         "AssemblyName": "BookStore-UI",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BookStore_UI.App",
+            "TagName": "BookStore_UI.Shared.SurveyPrompt",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
           }
         ],
-        "BoundAttributes": [],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BookStore_UI.App",
+          "Common.TypeName": "BookStore_UI.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -21178,6 +21464,11 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "/home/cannonjw/Projects/BookStore/BookStore-UI/Pages/Authors/View.razor",
+      "TargetPath": "Pages\\Authors\\View.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "/home/cannonjw/Projects/BookStore/BookStore-UI/Pages/Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
@@ -21213,6 +21504,11 @@
       "FileKind": "componentImport"
     },
     {
+      "FilePath": "/home/cannonjw/Projects/BookStore/BookStore-UI/Pages/Authors/Index.razor",
+      "TargetPath": "Pages\\Authors\\Index.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "/home/cannonjw/Projects/BookStore/BookStore-UI/Shared/SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
@@ -21221,6 +21517,11 @@
       "FilePath": "/home/cannonjw/Projects/BookStore/BookStore-UI/Pages/_Host.cshtml",
       "TargetPath": "Pages\\_Host.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/cannonjw/Projects/BookStore/BookStore-UI/Pages/Authors/Delete.razor",
+      "TargetPath": "Pages\\Authors\\Delete.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "/home/cannonjw/Projects/BookStore/BookStore-UI/Shared/MainLayout.razor",
@@ -21235,6 +21536,11 @@
     {
       "FilePath": "/home/cannonjw/Projects/BookStore/BookStore-UI/Pages/FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/cannonjw/Projects/BookStore/BookStore-UI/Pages/Authors/Edit.razor",
+      "TargetPath": "Pages\\Authors\\Edit.razor",
       "FileKind": "component"
     }
   ],

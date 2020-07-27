@@ -1,0 +1,77 @@
+@page "/authors/edit/{Id}"
+
+@inject IAuthorRepository _authRep
+@inject NavigationManager _navManager
+
+<h3>View Author Details</h3>
+@if(Model == null)
+{
+    <div class="alert alert-dismissible alert-secondary">
+        Loading...
+    </div>
+} else
+{
+    @if (IsFailed)
+    {
+        <div class="alert alert-danger">
+            <p>Something went wrong with your Update</p>
+        </div>
+    }
+
+    <EditForm Model="Model" OnValidSubmit="EditAuthor">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div class="form-group">
+            <label for="firstname">First Name</label>
+            <InputText @bind-Value="Model.Firstname" class="form-conrol" id="firstname" />
+        </div>
+        <div class="form-group">
+            <label for="lastnamename">Last Name</label>
+            <InputText @bind-Value="Model.Lastname" class="form-conrol" id="lastname" />
+        </div>
+        <div class="form-group">
+            <label for="bio">Bio</label>
+            <InputTextArea @bind-Value="Model.Bio" class="form-conrol" id="bio" />
+        </div>
+        <button class="btn btn-primary" >Submit Changes</button>
+        <button @onclick="BacktoList" class="btn btn-outline-secondary">
+            <span class="oi oi-media-skip-backward"></span>
+            Back To List
+        </button>
+    </EditForm>
+
+}
+
+
+@code {
+    [Parameter]
+    public string Id { get; set; }
+
+    private Author Model;
+    private bool IsFailed = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        int id = int.Parse(this.Id);
+        Model = await _authRep.Get(Endpoints.AuthorsEndpoint, id);
+    }
+
+    private async Task EditAuthor()
+    {
+        int id = int.Parse(this.Id);
+        bool isSuccess = await _authRep.Update(Endpoints.AuthorsEndpoint, Model, id);
+        if (isSuccess)
+        {
+            BacktoList();
+        } else
+        {
+            IsFailed = true;
+        }
+
+    }
+    private void BacktoList()
+    {
+        _navManager.NavigateTo("/authors/");
+    }
+
+}

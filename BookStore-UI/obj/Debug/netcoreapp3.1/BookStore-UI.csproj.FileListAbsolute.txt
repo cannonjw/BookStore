@@ -72,3 +72,11 @@
 /home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Users/Logout.razor.g.cs
 /home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/Razor/Pages/Users/Login.razor.g.cs
 /home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/Razor/Pages/Users/Logout.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Authors/Index.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/Razor/Pages/Authors/Index.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Authors/View.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/Razor/Pages/Authors/View.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Authors/Edit.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/Razor/Pages/Authors/Edit.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Authors/Delete.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/Razor/Pages/Authors/Delete.razor.g.cs
