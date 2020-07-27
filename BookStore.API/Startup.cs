@@ -103,7 +103,7 @@ namespace BookStore.API
                 c.RoutePrefix = "";
             });
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             SeedData.Seed(userManager, roleManager).Wait();
 

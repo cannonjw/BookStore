@@ -1,0 +1,38 @@
+2020-07-27 09:48:22.8592 INFO Users - Login: Login Attempt from user cannonjw@gmail.com 
+2020-07-27 09:48:22.9000 INFO Users - Login: cannonjw@gmail.com Not Authenticated
+2020-07-27 09:48:33.7311 INFO Users - Login: Login Attempt from user Mike@kahnsoft.org 
+2020-07-27 09:48:33.8422 INFO Users - Login: Mike@kahnsoft.org Successfully Authenticated
+2020-07-27 09:48:33.8452 INFO Users - Login: Generating Token
+2020-07-27 10:02:51.7698 INFO Users - Login: Login Attempt from user cannonjw@gmail.com 
+2020-07-27 10:02:51.8222 INFO Users - Login: cannonjw@gmail.com Not Authenticated
+2020-07-27 10:03:15.6904 INFO Users - Login: Login Attempt from user mike@kahnsoft.org 
+2020-07-27 10:03:15.7225 INFO Users - Login: mike@kahnsoft.org Successfully Authenticated
+2020-07-27 10:03:15.7252 INFO Users - Login: Generating Token
+2020-07-27 10:16:38.4087 INFO Users - Login: Login Attempt from user kahnm@kahnsoft.org 
+2020-07-27 10:16:38.4758 INFO Users - Login: kahnm@kahnsoft.org Successfully Authenticated
+2020-07-27 10:16:38.4807 INFO Users - Login: Generating Token
+2020-07-27 10:20:59.1750 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-07-27 10:20:59.1914 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-07-27 10:23:55.6897 INFO Users - Login: Login Attempt from user Mike@kahnsoft.org 
+2020-07-27 10:23:55.7255 INFO Users - Login: Mike@kahnsoft.org Successfully Authenticated
+2020-07-27 10:23:55.7283 INFO Users - Login: Generating Token
+2020-07-27 10:24:34.9032 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-07-27 10:24:34.9081 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-07-27 10:25:01.7911 INFO Users - Login: Login Attempt from user customer@kahnsoft.com 
+2020-07-27 10:25:01.8142 INFO Users - Login: customer@kahnsoft.com Not Authenticated
+2020-07-27 10:25:26.2297 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-07-27 10:25:26.2406 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-07-27 10:26:31.7615 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-07-27 10:26:31.7680 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-07-27 10:27:14.0142 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-07-27 10:27:14.0287 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-07-27 10:27:15.4744 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-07-27 10:27:15.5005 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-07-27 10:27:15.6441 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-07-27 10:27:15.6551 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-07-27 10:29:32.9109 INFO Users - Login: Login Attempt from user mike@kahnsoft.org 
+2020-07-27 10:29:32.9581 INFO Users - Login: mike@kahnsoft.org Successfully Authenticated
+2020-07-27 10:29:32.9615 INFO Users - Login: Generating Token
+2020-07-27 10:29:57.2606 INFO Users - Login: Login Attempt from user mike@kahnsoft.org 
+2020-07-27 10:29:57.3290 INFO Users - Login: mike@kahnsoft.org Successfully Authenticated
+2020-07-27 10:29:57.3290 INFO Users - Login: Generating Token

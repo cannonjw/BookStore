@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9jVNLaf23uwyvbRAj4aGied5bHggBqDEhIlve7HYOHBcIuvEzn5md9/Ll/sFlO/43tBf53umf9AFcDgxdQhwFg==",
+  "dgSpecHash": "GoRGgxnkWxajWXL/7jAULKp0VXXpLyHMwH/oAf7Gty45v2mPaLgQxfB6zOWP7DUoFHq4Bw67mk2UUFeElLTDKQ==",
   "success": true,
   "projectFilePath": "/home/cannonjw/Projects/BookStore/BookStore.API/BookStore.API.csproj",
   "expectedPackageFiles": [

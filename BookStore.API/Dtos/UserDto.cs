@@ -1,8 +1,15 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace BookStore.API.Dtos
 {
     public class UserDto
     {
-        public string Username { get; set; }
+        [Required]
+        [EmailAddress]
+        public string EmailAddress { get; set; }
+        [Required]
+        [DataType(DataType.Password)]
+        [StringLength(15, ErrorMessage = "Your password is limited to {2} to {1} characters",MinimumLength=6)]
         public string Password { get; set; }
     }
 
@@ -11,6 +18,11 @@ namespace BookStore.API.Dtos
         public string Username { get; set; }
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
+
+    }
+
+    public class UserForRegistration
+    {
 
     }
 }

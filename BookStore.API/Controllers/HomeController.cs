@@ -13,6 +13,7 @@ namespace BookStore.API.Controllers
     public class HomeController : ControllerBase
     {
         private readonly ILoggerService _logger;
+
         public HomeController(ILoggerService logger)
         {
             _logger = logger;

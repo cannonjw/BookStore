@@ -95,3 +95,17 @@
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll
+/home/cannonjw/Projects/BlazorStore/netcoreapp3.1/nlog.config
+/home/cannonjw/Projects/BlazorStore/netcoreapp3.1/appsettings.Development.json
+/home/cannonjw/Projects/BlazorStore/netcoreapp3.1/appsettings.json
+/home/cannonjw/Projects/BlazorStore/netcoreapp3.1/Properties/launchSettings.json
+/home/cannonjw/Projects/BlazorStore/netcoreapp3.1/BookStore.API.StaticWebAssets.xml
+/home/cannonjw/Projects/BlazorStore/netcoreapp3.1/app.db
+/home/cannonjw/Projects/BlazorStore/netcoreapp3.1/BookStore.API
+/home/cannonjw/Projects/BlazorStore/netcoreapp3.1/BookStore.API.deps.json
+/home/cannonjw/Projects/BlazorStore/netcoreapp3.1/BookStore.API.runtimeconfig.json
+/home/cannonjw/Projects/BlazorStore/netcoreapp3.1/BookStore.API.runtimeconfig.dev.json
+/home/cannonjw/Projects/BlazorStore/netcoreapp3.1/BookStore.API.dll
+/home/cannonjw/Projects/BlazorStore/netcoreapp3.1/BookStore.API.pdb
+/home/cannonjw/Projects/BlazorStore/netcoreapp3.1/BlazorStore.xml
+/home/cannonjw/Projects/BlazorStore/netcoreapp3.1/BookStore.API.Views.dll

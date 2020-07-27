@@ -25,7 +25,6 @@ namespace BookStore.API.Controllers
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ILoggerService _logger;
         private readonly IConfiguration _config;
-
         public UsersController(SignInManager<IdentityUser> signInManager, 
                                 UserManager<IdentityUser> userManager,
                                 ILoggerService logger,
@@ -37,6 +36,35 @@ namespace BookStore.API.Controllers
             _userManager = userManager;
         }
 
+        [Route("register")]
+        [AllowAnonymous]
+        [HttpPost]
+        public async Task<IActionResult> Register([FromBody] UserDto userDto)
+        {
+            var location = GetControllerActionNames();
+            try
+            {
+                var user = new IdentityUser {
+                    Email = userDto.EmailAddress,
+                    UserName = userDto.EmailAddress
+                };
+                var result = await _userManager.CreateAsync(user, userDto.Password);
+                if (!result.Succeeded)
+                {
+                    foreach(var error in result.Errors)
+                    {
+                        _logger.LogError($"{location}: {error.Code} {error.Description}");
+                    }
+                    return InternalError($"{location}: {userDto.EmailAddress} Registration Failed.");
+                }
+                return Ok(new { result.Succeeded });
+            } catch (Exception _ex)
+            {
+                return InternalError($"{location}: {_ex.Message} - {_ex.InnerException}");
+            }
+        }
+
+        [Route("login")]
         [AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> Login([FromBody] UserDto userDto)
@@ -44,19 +72,19 @@ namespace BookStore.API.Controllers
             var location = GetControllerActionNames();
             try
             {
-                _logger.LogInfo($"{location}: Login Attempt from user {userDto.Username} ");
-                var result = await _signInManager.PasswordSignInAsync(userDto.Username, userDto.Password, false, false);
+                _logger.LogInfo($"{location}: Login Attempt from user {userDto.EmailAddress} ");
+                var result = await _signInManager.PasswordSignInAsync(userDto.EmailAddress, userDto.Password, false, false);
 
                 if (result.Succeeded)
                 {
-                    _logger.LogInfo($"{location}: {userDto.Username} Successfully Authenticated");
-                    var user = await _userManager.FindByNameAsync(userDto.Username);
+                    _logger.LogInfo($"{location}: {userDto.EmailAddress} Successfully Authenticated");
+                    var user = await _userManager.FindByEmailAsync(userDto.EmailAddress);
                     _logger.LogInfo($"{location}: Generating Token");
                     var tokenString = await GenerateJSONWebToken(user);
                     // return Ok(user);
                     return Ok(new { token = tokenString });
                 }
-                _logger.LogInfo($"{location}: {userDto.Username} Not Authenticated");
+                _logger.LogInfo($"{location}: {userDto.EmailAddress} Not Authenticated");
                 return Unauthorized(userDto);
             }
             catch (Exception e)

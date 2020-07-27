@@ -16,11 +16,13 @@ namespace BookStore.API.Controllers
     [ApiController]
     [Authorize]
     [ProducesResponseType(StatusCodes.Status200OK)]
+
     public class BooksController : Controller
     {
         private readonly IBookRepository _bookRepository;
         private readonly IMapper _mapper;
         private readonly ILoggerService _logger;
+
         public BooksController(IBookRepository bookRepository, IMapper mapper, ILoggerService logger)
         {
             _logger = logger;
