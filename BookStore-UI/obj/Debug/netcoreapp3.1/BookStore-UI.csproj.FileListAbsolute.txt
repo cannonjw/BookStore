@@ -80,3 +80,9 @@
 /home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/Razor/Pages/Authors/Edit.razor.g.cs
 /home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Authors/Delete.razor.g.cs
 /home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/Razor/Pages/Authors/Delete.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Authors/Create.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/Razor/Pages/Authors/Create.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/ErrorMessage.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/LoadingMessage.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/Razor/Shared/ErrorMessage.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/Razor/Shared/LoadingMessage.razor.g.cs

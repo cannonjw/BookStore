@@ -1,21 +1,20 @@
 @page "/authors/edit/{Id}"
-
+@attribute [Authorize(Roles="Administrator")]
 @inject IAuthorRepository _authRep
 @inject NavigationManager _navManager
 
-<h3>View Author Details</h3>
+<h3 class="card-title">Edit Author Details</h3>
+<br/>
+<hr/>
+<br/>
 @if(Model == null)
 {
-    <div class="alert alert-dismissible alert-secondary">
-        Loading...
-    </div>
+    <LoadingMessage Message="Loading author details..." />
 } else
 {
     @if (IsFailed)
     {
-        <div class="alert alert-danger">
-            <p>Something went wrong with your Update</p>
-        </div>
+        <ErrorMessage Message="Something went wrong, please contact an administrator." />
     }
 
     <EditForm Model="Model" OnValidSubmit="EditAuthor">

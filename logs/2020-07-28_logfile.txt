@@ -1,0 +1,52 @@
+2020-07-28 08:38:10.8368 INFO Users - Login: Login Attempt from user mike@kahnsoft.org 
+2020-07-28 08:38:11.0562 INFO Users - Login: mike@kahnsoft.org Successfully Authenticated
+2020-07-28 08:38:11.0615 INFO Users - Login: Generating Token
+2020-07-28 08:38:15.4029 INFO GetAuthors
+2020-07-28 08:39:36.2912 INFO GetAuthors
+2020-07-28 08:42:05.8943 INFO GetAuthors
+2020-07-28 08:46:54.0217 INFO GetAuthors
+2020-07-28 08:47:07.4932 INFO Author Created
+2020-07-28 08:47:07.7140 INFO GetAuthors
+2020-07-28 08:48:08.8000 INFO GetAuthor 5
+2020-07-28 08:48:10.7959 INFO GetAuthors
+2020-07-28 08:48:12.3818 INFO GetAuthor 1
+2020-07-28 08:48:25.1389 INFO GetAuthors
+2020-07-28 09:05:55.7659 INFO GetAuthors
+2020-07-28 09:06:00.1027 INFO GetAuthor 1
+2020-07-28 09:06:02.0889 INFO GetAuthors
+2020-07-28 09:06:03.7220 INFO GetAuthor 5
+2020-07-28 09:06:05.4906 INFO GetAuthors
+2020-07-28 09:06:10.2023 INFO GetAuthor 1
+2020-07-28 09:06:17.4099 INFO GetAuthors
+2020-07-28 09:06:18.9680 INFO GetAuthor 5
+2020-07-28 09:06:23.5582 INFO GetAuthors
+2020-07-28 09:07:15.5201 INFO Author Created
+2020-07-28 09:07:15.6632 INFO GetAuthors
+2020-07-28 09:07:18.3864 INFO GetAuthor 6
+2020-07-28 09:07:19.9582 INFO GetAuthors
+2020-07-28 09:07:41.4911 INFO Author Created
+2020-07-28 09:07:41.6197 INFO GetAuthors
+2020-07-28 09:07:44.4096 INFO GetAuthor 7
+2020-07-28 09:07:49.1125 INFO GetAuthors
+2020-07-28 09:16:46.6837 INFO GetAuthors
+2020-07-28 09:16:49.0743 INFO GetAuthor 1
+2020-07-28 09:16:51.8386 INFO GetAuthors
+2020-07-28 09:17:04.0968 INFO GetAuthors
+2020-07-28 09:27:15.0093 INFO GetAuthors
+2020-07-28 09:27:29.7110 INFO Users - Login: Login Attempt from user kahnm@kahnsoft.org 
+2020-07-28 09:27:29.7653 INFO Users - Login: kahnm@kahnsoft.org Successfully Authenticated
+2020-07-28 09:27:29.7726 INFO Users - Login: Generating Token
+2020-07-28 09:27:34.6733 INFO GetAuthors
+2020-07-28 09:27:36.5107 INFO GetAuthor 1
+2020-07-28 09:27:38.5052 INFO GetAuthors
+2020-07-28 09:27:39.6727 INFO GetAuthor 5
+2020-07-28 09:27:41.0265 INFO GetAuthors
+2020-07-28 09:27:52.7159 INFO Users - Login: Login Attempt from user mike@kahnsoft.org 
+2020-07-28 09:27:52.7331 INFO Users - Login: mike@kahnsoft.org Not Authenticated
+2020-07-28 09:27:59.4317 INFO Users - Login: Login Attempt from user mike@kahnsoft.org 
+2020-07-28 09:27:59.5052 INFO Users - Login: mike@kahnsoft.org Successfully Authenticated
+2020-07-28 09:27:59.5122 INFO Users - Login: Generating Token
+2020-07-28 09:28:01.7226 INFO GetAuthors
+2020-07-28 09:32:31.3108 INFO GetAuthors
+2020-07-28 09:32:33.6917 INFO GetAuthor 1
+2020-07-28 09:32:36.5653 INFO GetAuthors
