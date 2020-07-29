@@ -1,6 +1,6 @@
 @page "/authors/"
 
-@inject IAuthorRepository _authRep
+@inject IAuthorRepository _authRepo
 @inject NavigationManager _navManager
 
 <h3 class="card-title">Authors</h3>
@@ -60,7 +60,7 @@
     private IList<Author> Model;
     protected async override Task OnInitializedAsync() 
     {
-        Model = await _authRep.Get(Endpoints.AuthorsEndpoint);
+        Model = await _authRepo.Get(Endpoints.AuthorsEndpoint);
     }
 
 }

@@ -15,6 +15,45 @@
           "lib/netstandard2.1/Blazored.LocalStorage.dll": {}
         }
       },
+      "Blazored.Toast/2.0.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.1",
+          "Microsoft.AspNetCore.Components.Web": "3.1.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Blazored.Toast.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Blazored.Toast.dll": {}
+        },
+        "build": {
+          "buildTransitive/Blazored.Toast.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazored.Toast.props": {}
+        }
+      },
+      "BlazorInputFile/0.1.0-preview-00002": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.0.0-preview9.19424.4",
+          "Microsoft.AspNetCore.Components.Web": "3.0.0-preview9.19424.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/BlazorInputFile.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/BlazorInputFile.dll": {}
+        },
+        "build": {
+          "buildTransitive/BlazorInputFile.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/BlazorInputFile.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/3.1.6": {
         "type": "package",
         "dependencies": {
@@ -241,6 +280,41 @@
         "blazored.localstorage.nuspec",
         "icon.png",
         "lib/netstandard2.1/Blazored.LocalStorage.dll"
+      ]
+    },
+    "Blazored.Toast/2.0.9": {
+      "sha512": "bD+a0uQaOAeKl7mEciHHNN700ZGC9rvXBXkU1uToou5/I0DrxhF4VvHhIbtq5NejKB3LzIzU28jUGquHz8blqw==",
+      "type": "package",
+      "path": "blazored.toast/2.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "blazored.toast.2.0.9.nupkg.sha512",
+        "blazored.toast.nuspec",
+        "build/Blazored.Toast.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazored.Toast.props",
+        "buildTransitive/Blazored.Toast.props",
+        "lib/netstandard2.0/Blazored.Toast.dll",
+        "staticwebassets/blazored-toast.css"
+      ]
+    },
+    "BlazorInputFile/0.1.0-preview-00002": {
+      "sha512": "CEb6oLkSaKn2p2mepAjMIEabIYxsMcX0mRC16ciKPWPJCQMC/FS39C5kDySqdf6BE8/X714SDKc3fj8bI+L9Ig==",
+      "type": "package",
+      "path": "blazorinputfile/0.1.0-preview-00002",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "blazorinputfile.0.1.0-preview-00002.nupkg.sha512",
+        "blazorinputfile.nuspec",
+        "build/BlazorInputFile.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/BlazorInputFile.props",
+        "buildTransitive/BlazorInputFile.props",
+        "lib/netstandard2.0/BlazorInputFile.dll",
+        "lib/netstandard2.1/BlazorInputFile.dll",
+        "staticwebassets/inputfile.js"
       ]
     },
     "Microsoft.AspNetCore.Authorization/3.1.6": {
@@ -673,7 +747,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "BlazorInputFile >= 0.1.0-preview-00002",
       "Blazored.LocalStorage >= 3.0.0",
+      "Blazored.Toast >= 2.0.9",
       "Newtonsoft.Json >= 12.0.3",
       "System.IdentityModel.Tokens.Jwt >= 6.7.1"
     ]
@@ -713,9 +789,17 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "BlazorInputFile": {
+            "target": "Package",
+            "version": "[0.1.0-preview-00002, )"
+          },
           "Blazored.LocalStorage": {
             "target": "Package",
             "version": "[3.0.0, )"
+          },
+          "Blazored.Toast": {
+            "target": "Package",
+            "version": "[2.0.9, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",

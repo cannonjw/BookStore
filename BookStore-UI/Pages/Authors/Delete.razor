@@ -1,6 +1,6 @@
 @page "/authors/delete/{Id}"
 @attribute [Authorize(Roles="Administrator")]
-@inject IAuthorRepository _authRep
+@inject IAuthorRepository _authRepo
 @inject NavigationManager _navManager
 
 <h3 class="card-title">Are you sure you want to delete this record?</h3>
@@ -78,13 +78,13 @@
     protected override async Task OnInitializedAsync()
     {
         int id = int.Parse(this.Id);
-        Model = await _authRep.Get(Endpoints.AuthorsEndpoint, id);
+        Model = await _authRepo.Get(Endpoints.AuthorsEndpoint, id);
     }
 
     private async Task DeleteAuthor()
     {
         int id = int.Parse(this.Id);
-        bool isSuccess = await _authRep.Delete(Endpoints.AuthorsEndpoint, id);
+        bool isSuccess = await _authRepo.Delete(Endpoints.AuthorsEndpoint, id);
         if (isSuccess)
         {
             BacktoList();

@@ -105,6 +105,27 @@ using BookStore_UI.Models;
 #line hidden
 #nullable disable
 #nullable restore
+#line 14 "/home/cannonjw/Projects/BookStore/BookStore-UI/_Imports.razor"
+using BlazorInputFile;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 15 "/home/cannonjw/Projects/BookStore/BookStore-UI/_Imports.razor"
+using Blazored.Toast;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "/home/cannonjw/Projects/BookStore/BookStore-UI/_Imports.razor"
+using Blazored.Toast.Services;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "/home/cannonjw/Projects/BookStore/BookStore-UI/Pages/FetchData.razor"
 using BookStore_UI.Data;
 

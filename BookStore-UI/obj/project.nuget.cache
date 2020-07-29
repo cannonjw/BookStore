@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BwxljCg1DX2wO5P7pcglGW0M+NjiPM0F9JG/VKzwai+Wils9uneSuIG1x0ND9dU5XTHIx5c9Rd8UCIY4rSUY5g==",
+  "dgSpecHash": "5IOQBYw2V5IYRwKGgov9/l1XQbP1wwEFoKd6tD+vYV7l4Sby4DVRYmXFAgy/+0uqFFjPZG1lF7NmVCiAN+oQ8Q==",
   "success": true,
   "projectFilePath": "/home/cannonjw/Projects/BookStore/BookStore-UI/BookStore-UI.csproj",
   "expectedPackageFiles": [
     "/home/cannonjw/.nuget/packages/blazored.localstorage/3.0.0/blazored.localstorage.3.0.0.nupkg.sha512",
+    "/home/cannonjw/.nuget/packages/blazored.toast/2.0.9/blazored.toast.2.0.9.nupkg.sha512",
+    "/home/cannonjw/.nuget/packages/blazorinputfile/0.1.0-preview-00002/blazorinputfile.0.1.0-preview-00002.nupkg.sha512",
     "/home/cannonjw/.nuget/packages/microsoft.aspnetcore.authorization/3.1.6/microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
     "/home/cannonjw/.nuget/packages/microsoft.aspnetcore.components/3.1.6/microsoft.aspnetcore.components.3.1.6.nupkg.sha512",
     "/home/cannonjw/.nuget/packages/microsoft.aspnetcore.components.analyzers/3.1.6/microsoft.aspnetcore.components.analyzers.3.1.6.nupkg.sha512",

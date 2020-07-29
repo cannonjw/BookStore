@@ -1,6 +1,6 @@
 @page "/authors/view/{Id}"
 
-@inject IAuthorRepository _authRep
+@inject IAuthorRepository _authRepo
 @inject NavigationManager _navManager
 
 @if (Model == null)
@@ -62,7 +62,7 @@
     protected override async Task OnInitializedAsync()
     {
         int id = int.Parse(Id);
-        Model = await _authRep.Get(Endpoints.AuthorsEndpoint, id);
+        Model = await _authRepo.Get(Endpoints.AuthorsEndpoint, id);
     }
 
     private void BacktoList()

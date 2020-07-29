@@ -86,3 +86,16 @@
 /home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/LoadingMessage.razor.g.cs
 /home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/Razor/Shared/ErrorMessage.razor.g.cs
 /home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/Razor/Shared/LoadingMessage.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Books/Index.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/Razor/Pages/Books/Index.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Books/View.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/Razor/Pages/Books/View.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/bin/Debug/netcoreapp3.1/BookStore-UI.StaticWebAssets.xml
+/home/cannonjw/Projects/BookStore/BookStore-UI/bin/Debug/netcoreapp3.1/BlazorInputFile.dll
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Books/Create.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Books/Delete.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Books/Edit.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/Razor/Pages/Books/Create.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/Razor/Pages/Books/Delete.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/obj/Debug/netcoreapp3.1/Razor/Pages/Books/Edit.razor.g.cs
+/home/cannonjw/Projects/BookStore/BookStore-UI/bin/Debug/netcoreapp3.1/Blazored.Toast.dll

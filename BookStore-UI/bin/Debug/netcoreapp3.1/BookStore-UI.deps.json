@@ -24,7 +24,9 @@
     ".NETCoreApp,Version=v3.1": {
       "BookStore-UI/1.0.0": {
         "dependencies": {
+          "BlazorInputFile": "0.1.0-preview-00002",
           "Blazored.LocalStorage": "3.0.0",
+          "Blazored.Toast": "2.0.9",
           "Newtonsoft.Json": "12.0.3",
           "System.IdentityModel.Tokens.Jwt": "6.7.1",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -319,6 +321,37 @@
         },
         "compile": {
           "lib/netstandard2.1/Blazored.LocalStorage.dll": {}
+        }
+      },
+      "Blazored.Toast/2.0.9": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.6",
+          "Microsoft.AspNetCore.Components.Web": "3.1.6",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Blazored.Toast.dll": {
+            "assemblyVersion": "2.0.9.0",
+            "fileVersion": "2.0.9.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Blazored.Toast.dll": {}
+        }
+      },
+      "BlazorInputFile/0.1.0-preview-00002": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.6",
+          "Microsoft.AspNetCore.Components.Web": "3.1.6"
+        },
+        "runtime": {
+          "lib/netstandard2.1/BlazorInputFile.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/BlazorInputFile.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authorization/3.1.6": {
@@ -2178,6 +2211,20 @@
       "sha512": "sha512-eXpHDvog+nRvAFsrqVKqGrpHXuyPTH8tgAremHKbteP5nNEROlItfP8Xh8pNMpTovuQ4tl3NyfQcG0rnbjQ5jw==",
       "path": "blazored.localstorage/3.0.0",
       "hashPath": "blazored.localstorage.3.0.0.nupkg.sha512"
+    },
+    "Blazored.Toast/2.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bD+a0uQaOAeKl7mEciHHNN700ZGC9rvXBXkU1uToou5/I0DrxhF4VvHhIbtq5NejKB3LzIzU28jUGquHz8blqw==",
+      "path": "blazored.toast/2.0.9",
+      "hashPath": "blazored.toast.2.0.9.nupkg.sha512"
+    },
+    "BlazorInputFile/0.1.0-preview-00002": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CEb6oLkSaKn2p2mepAjMIEabIYxsMcX0mRC16ciKPWPJCQMC/FS39C5kDySqdf6BE8/X714SDKc3fj8bI+L9Ig==",
+      "path": "blazorinputfile/0.1.0-preview-00002",
+      "hashPath": "blazorinputfile.0.1.0-preview-00002.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/3.1.6": {
       "type": "package",

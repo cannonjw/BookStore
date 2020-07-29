@@ -1,6 +1,6 @@
 @page "/authors/edit/{Id}"
 @attribute [Authorize(Roles="Administrator")]
-@inject IAuthorRepository _authRep
+@inject IAuthorRepository _authRepo
 @inject NavigationManager _navManager
 
 <h3 class="card-title">Edit Author Details</h3>
@@ -52,13 +52,13 @@
     protected override async Task OnInitializedAsync()
     {
         int id = int.Parse(this.Id);
-        Model = await _authRep.Get(Endpoints.AuthorsEndpoint, id);
+        Model = await _authRepo.Get(Endpoints.AuthorsEndpoint, id);
     }
 
     private async Task EditAuthor()
     {
         int id = int.Parse(this.Id);
-        bool isSuccess = await _authRep.Update(Endpoints.AuthorsEndpoint, Model, id);
+        bool isSuccess = await _authRepo.Update(Endpoints.AuthorsEndpoint, Model, id);
         if (isSuccess)
         {
             BacktoList();
