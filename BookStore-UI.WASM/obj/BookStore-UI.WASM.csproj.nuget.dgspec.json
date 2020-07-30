@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/BookStore-UI.WASM.csproj": {}
+  },
+  "projects": {
+    "/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/BookStore-UI.WASM.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/BookStore-UI.WASM.csproj",
+        "projectName": "BookStore-UI.WASM",
+        "projectPath": "/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/BookStore-UI.WASM.csproj",
+        "packagesPath": "/home/cannonjw/.nuget/packages/",
+        "outputPath": "/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/cannonjw/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "BlazorInputFile": {
+              "target": "Package",
+              "version": "[0.2.0, )"
+            },
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Blazored.Toast": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

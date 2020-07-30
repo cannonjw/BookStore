@@ -11716,3 +11716,15 @@
 2020-07-30 08:24:01.6236 Trace Closing Layout Renderer: ${message}
 2020-07-30 08:24:01.6236 Debug Finished closing logging configuration.
 2020-07-30 08:24:01.6236 Info Logger has been shut down.
+2020-07-30 12:08:40.1250 Trace Opening /home/cannonjw/Projects/BookStore/logs/2020-07-30_logfile.txt with allowFileSharedWriting=False
+2020-07-30 12:08:45.1664 Trace Opening /home/cannonjw/Projects/BookStore/logs/2020-07-30_logfile.txt with allowFileSharedWriting=False
+2020-07-30 12:08:46.9152 Trace Opening /home/cannonjw/Projects/BookStore/logs/2020-07-30_logfile.txt with allowFileSharedWriting=False
+2020-07-30 12:08:55.7439 Trace Opening /home/cannonjw/Projects/BookStore/logs/2020-07-30_logfile.txt with allowFileSharedWriting=False
+2020-07-30 12:09:13.1924 Trace Opening /home/cannonjw/Projects/BookStore/logs/2020-07-30_logfile.txt with allowFileSharedWriting=False
+2020-07-30 12:09:13.4483 Trace Opening /home/cannonjw/Projects/BookStore/logs/2020-07-30_logfile.txt with allowFileSharedWriting=False
+2020-07-30 12:09:20.1088 Trace Opening /home/cannonjw/Projects/BookStore/logs/2020-07-30_logfile.txt with allowFileSharedWriting=False
+2020-07-30 12:09:21.6837 Trace Opening /home/cannonjw/Projects/BookStore/logs/2020-07-30_logfile.txt with allowFileSharedWriting=False
+2020-07-30 12:09:23.5087 Trace Opening /home/cannonjw/Projects/BookStore/logs/2020-07-30_logfile.txt with allowFileSharedWriting=False
+2020-07-30 12:09:25.1070 Trace Opening /home/cannonjw/Projects/BookStore/logs/2020-07-30_logfile.txt with allowFileSharedWriting=False
+2020-07-30 12:09:27.7272 Trace Opening /home/cannonjw/Projects/BookStore/logs/2020-07-30_logfile.txt with allowFileSharedWriting=False
+2020-07-30 12:09:29.7622 Trace Opening /home/cannonjw/Projects/BookStore/logs/2020-07-30_logfile.txt with allowFileSharedWriting=False

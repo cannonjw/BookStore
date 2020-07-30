@@ -1,0 +1,76 @@
+@page "/authors/edit/{Id}"
+@attribute [Authorize(Roles="Administrator")]
+@inject IAuthorRepository _authRepo
+@inject NavigationManager _navManager
+
+<h3 class="card-title">Edit Author Details</h3>
+<br/>
+<hr/>
+<br/>
+@if(Model == null)
+{
+    <LoadingMessage Message="Loading author details..." />
+} else
+{
+    @if (IsFailed)
+    {
+        <ErrorMessage Message="Something went wrong, please contact an administrator." />
+    }
+
+    <EditForm Model="Model" OnValidSubmit="EditAuthor">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div class="form-group">
+            <label for="firstname">First Name</label>
+            <InputText @bind-Value="Model.Firstname" class="form-conrol" id="firstname" />
+        </div>
+        <div class="form-group">
+            <label for="lastnamename">Last Name</label>
+            <InputText @bind-Value="Model.Lastname" class="form-conrol" id="lastname" />
+        </div>
+        <div class="form-group">
+            <label for="bio">Bio</label>
+            <InputTextArea @bind-Value="Model.Bio" class="form-conrol" id="bio" />
+        </div>
+        <button class="btn btn-primary" >Submit Changes</button>
+        <button @onclick="BacktoList" class="btn btn-outline-secondary">
+            <span class="oi oi-media-skip-backward"></span>
+            Back To List
+        </button>
+    </EditForm>
+
+}
+
+
+@code {
+    [Parameter]
+    public string Id { get; set; }
+
+    private Author Model;
+    private bool IsFailed = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        int id = int.Parse(this.Id);
+        Model = await _authRepo.Get(Endpoints.AuthorsEndpoint, id);
+    }
+
+    private async Task EditAuthor()
+    {
+        int id = int.Parse(this.Id);
+        bool isSuccess = await _authRepo.Update(Endpoints.AuthorsEndpoint, Model, id);
+        if (isSuccess)
+        {
+            BacktoList();
+        } else
+        {
+            IsFailed = true;
+        }
+
+    }
+    private void BacktoList()
+    {
+        _navManager.NavigateTo("/authors/");
+    }
+
+}
