@@ -13,6 +13,8 @@
 {
     <AuthorizeView Roles="Administrator">
             <a href="/books/create" class="btn btn-primary"><span class="oi oi-plus"></span>Create New Book</a>
+            <br />
+            <br />
     </AuthorizeView>
 
     @if (Model.Count < 1)
@@ -44,7 +46,7 @@
                             }
                         </td>
                         <td>@book.Title</td>
-                        <td>@book.Price</td>
+                        <td>@string.Format(new System.Globalization.CultureInfo("en-SG", false), "{0:C}",book.Price)</td>
                         @if (book.author == null)
                         {
                             <td>No Author</td>

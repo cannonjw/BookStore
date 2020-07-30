@@ -1,0 +1,19 @@
+2020-07-30 08:16:36.4895 INFO Users - Login: Login Attempt from user mike@kahnsoft.orrg 
+2020-07-30 08:16:36.5710 INFO Users - Login: mike@kahnsoft.orrg Not Authenticated
+2020-07-30 08:16:47.0943 INFO Users - Login: Login Attempt from user mike@kahnsoft.orrg 
+2020-07-30 08:16:47.1263 INFO Users - Login: mike@kahnsoft.orrg Not Authenticated
+2020-07-30 08:16:52.7369 INFO Users - Login: Login Attempt from user mike@kahnsoft.org 
+2020-07-30 08:16:52.9157 INFO Users - Login: mike@kahnsoft.org Successfully Authenticated
+2020-07-30 08:16:52.9157 INFO Users - Login: Generating Token
+2020-07-30 08:16:55.4850 INFO  Books - GetBooks
+Get Books
+2020-07-30 08:17:43.3342 INFO Users - Login: Login Attempt from user mike@kahnsoft.org 
+2020-07-30 08:17:43.4126 INFO Users - Login: mike@kahnsoft.org Successfully Authenticated
+2020-07-30 08:17:43.4192 INFO Users - Login: Generating Token
+2020-07-30 08:17:46.4432 INFO  Books - GetBooks
+Get Books
+2020-07-30 08:20:19.1276 INFO  Books - GetBooks
+Get Books
+2020-07-30 08:22:10.9467 INFO  Books - GetBooks
+Get Books
+2020-07-30 08:22:12.2904 INFO GetAuthors
