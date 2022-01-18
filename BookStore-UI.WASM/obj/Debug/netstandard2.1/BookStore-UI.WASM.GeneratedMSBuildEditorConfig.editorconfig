@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = BookStore-UI.WASM
+build_property.ProjectDir = /home/cannonjw/Projects/BookStore/BookStore-UI.WASM/

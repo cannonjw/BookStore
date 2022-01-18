@@ -1,6 +1,5 @@
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/appsettings.json
-/home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/BookStore.API.StaticWebAssets.xml
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/BookStore.API
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/BookStore.API.deps.json
@@ -62,7 +61,6 @@
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/e_sqlite3.dll
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/e_sqlite3.dll
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll
-/home/cannonjw/Projects/BookStore/BookStore.API/obj/Debug/netcoreapp3.1/BookStore.API.csprojAssemblyReference.cache
 /home/cannonjw/Projects/BookStore/BookStore.API/obj/Debug/netcoreapp3.1/BookStore.API.AssemblyInfoInputs.cache
 /home/cannonjw/Projects/BookStore/BookStore.API/obj/Debug/netcoreapp3.1/BookStore.API.AssemblyInfo.cs
 /home/cannonjw/Projects/BookStore/BookStore.API/obj/Debug/netcoreapp3.1/BookStore.API.csproj.CoreCompileInputs.cache
@@ -82,7 +80,6 @@
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/NLog.dll
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/nlog.config
-/home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/app.db
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/AutoMapper.dll
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
@@ -109,3 +106,6 @@
 /home/cannonjw/Projects/BlazorStore/netcoreapp3.1/BookStore.API.pdb
 /home/cannonjw/Projects/BlazorStore/netcoreapp3.1/BlazorStore.xml
 /home/cannonjw/Projects/BlazorStore/netcoreapp3.1/BookStore.API.Views.dll
+/home/cannonjw/Projects/BookStore/BookStore.API/bin/Debug/netcoreapp3.1/app.db
+/home/cannonjw/Projects/BookStore/BookStore.API/obj/Debug/netcoreapp3.1/BookStore.API.csproj.AssemblyReference.cache
+/home/cannonjw/Projects/BookStore/BookStore.API/obj/Debug/netcoreapp3.1/BookStore.API.GeneratedMSBuildEditorConfig.editorconfig

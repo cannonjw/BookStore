@@ -81,7 +81,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-cOtQfqgHq1ahHQ8dAZhsUudQF3zeHnJw5qXZEwq\/FYM=",
+      "hash": "sha256-ddHiOBMDYKgea4vqxQ4vBui\/2WDWBL\/tqzQGsNrktlE=",
       "url": "_framework\/_bin\/BookStore-UI.WASM.dll"
     },
     {
@@ -221,8 +221,28 @@
       "url": "_framework\/_bin\/System.Net.Http.Json.dll"
     },
     {
+      "hash": "sha256-4NUQ26HmvXRi8smc0jz9940OUECDLQnoMWQLrMLe0ok=",
+      "url": "_framework\/_bin\/Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "hash": "sha256-rvTW0d54uLW0iDMAX30lpmr9f8uHoS3YYkEU5zNGhyc=",
+      "url": "_framework\/_bin\/Microsoft.Extensions.Options.dll"
+    },
+    {
+      "hash": "sha256-y\/FyJQOcW2TOcTp7Iuv8brGBzL5ZP0oJdG7ysK+gtKc=",
+      "url": "_framework\/_bin\/Microsoft.Extensions.Primitives.dll"
+    },
+    {
       "hash": "sha256-Bs1Wrmh4ex9dTEIT0yCRF52N\/wOmsBDt457BHr0\/ssM=",
       "url": "_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+    },
+    {
+      "hash": "sha256-825GQI5nG1C1WqLD1SNKSpjzLCNbH2\/KChgjBL0SSXI=",
+      "url": "_framework\/_bin\/Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
+      "hash": "sha256-6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=",
+      "url": "_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "hash": "sha256-bSgsT2x5xMvs8mara5wU+EJwcyHa9GVMU85HwhWcdWM=",
@@ -245,8 +265,16 @@
       "url": "_framework\/_bin\/Microsoft.AspNetCore.Components.dll"
     },
     {
-      "hash": "sha256-6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=",
-      "url": "_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll"
+      "hash": "sha256-SnlpX7tqR4Or48+LUVR7CMv3xLhjy1JBnmDfQCb2GwM=",
+      "url": "_framework\/_bin\/Blazored.Toast.dll"
+    },
+    {
+      "hash": "sha256-C0KrMmLQQE68cd1+FNwIOW89nNGbOH48hRxQAoSBaaA=",
+      "url": "_framework\/_bin\/BlazorInputFile.dll"
+    },
+    {
+      "hash": "sha256-LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=",
+      "url": "_framework\/_bin\/Microsoft.JSInterop.dll"
     },
     {
       "hash": "sha256-gQ426UT1KXJeey3VxWzfD6c7ocifAHkIU0XJHD1396k=",
@@ -259,34 +287,6 @@
     {
       "hash": "sha256-7+FtaZd2xSysaMLC59XhYdtkNMZ15ha0lk73dxPdT5w=",
       "url": "_framework\/_bin\/Blazored.LocalStorage.dll"
-    },
-    {
-      "hash": "sha256-rvTW0d54uLW0iDMAX30lpmr9f8uHoS3YYkEU5zNGhyc=",
-      "url": "_framework\/_bin\/Microsoft.Extensions.Options.dll"
-    },
-    {
-      "hash": "sha256-y\/FyJQOcW2TOcTp7Iuv8brGBzL5ZP0oJdG7ysK+gtKc=",
-      "url": "_framework\/_bin\/Microsoft.Extensions.Primitives.dll"
-    },
-    {
-      "hash": "sha256-LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=",
-      "url": "_framework\/_bin\/Microsoft.JSInterop.dll"
-    },
-    {
-      "hash": "sha256-SnlpX7tqR4Or48+LUVR7CMv3xLhjy1JBnmDfQCb2GwM=",
-      "url": "_framework\/_bin\/Blazored.Toast.dll"
-    },
-    {
-      "hash": "sha256-C0KrMmLQQE68cd1+FNwIOW89nNGbOH48hRxQAoSBaaA=",
-      "url": "_framework\/_bin\/BlazorInputFile.dll"
-    },
-    {
-      "hash": "sha256-4NUQ26HmvXRi8smc0jz9940OUECDLQnoMWQLrMLe0ok=",
-      "url": "_framework\/_bin\/Microsoft.AspNetCore.Authorization.dll"
-    },
-    {
-      "hash": "sha256-825GQI5nG1C1WqLD1SNKSpjzLCNbH2\/KChgjBL0SSXI=",
-      "url": "_framework\/_bin\/Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "hash": "sha256-5lY1KL\/pA7kS\/OYycrkrhkXJKFHJHVbdmUTyPYaqDiM=",
@@ -337,7 +337,7 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-6co9SzZWE+WueiiRQUEnU7Ut\/c6NAhAUMqUiwwsr4Io=",
+      "hash": "sha256-Ec5zeJHmEYfK29XsYD8\/Q0OtPOfO4JQmJSCr9J1HjTA=",
       "url": "_framework\/_bin\/BookStore-UI.WASM.pdb"
     },
     {
@@ -357,9 +357,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-6DPgnlkU6tyrF7iwMTTUBRhB8IBUTM1c0YHjYVy5d78=",
+      "hash": "sha256-iW3hubKdISuK8bCl9CpZ4SyRdbSwMUumglKAWDFaxOw=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "wwC6Bvzx"
+  "version": "qlPcobUC"
 };

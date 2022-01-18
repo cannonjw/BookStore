@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/cOtQfqgHq1ahHQ8dAZhsUudQF3zeHnJw5qXZEwq-FYM=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/ddHiOBMDYKgea4vqxQ4vBui-2WDWBL-tqzQGsNrktlE=.hash",
       "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/BookStore-UI.WASM.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/BookStore-UI.WASM.dll.br"
     },
@@ -176,9 +176,34 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/System.Net.Http.Json.dll.br"
     },
     {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/4NUQ26HmvXRi8smc0jz9940OUECDLQnoMWQLrMLe0ok=.hash",
+      "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.AspNetCore.Authorization.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Authorization.dll.br"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/rvTW0d54uLW0iDMAX30lpmr9f8uHoS3YYkEU5zNGhyc=.hash",
+      "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Options.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/y-FyJQOcW2TOcTp7Iuv8brGBzL5ZP0oJdG7ysK_gtKc=.hash",
+      "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Primitives.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Primitives.dll.br"
+    },
+    {
       "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/Bs1Wrmh4ex9dTEIT0yCRF52N-wOmsBDt457BHr0-ssM=.hash",
       "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/825GQI5nG1C1WqLD1SNKSpjzLCNbH2-KChgjBL0SSXI=.hash",
+      "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.AspNetCore.Metadata.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Metadata.dll.br"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=.hash",
+      "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Logging.Abstractions.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
     },
     {
       "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/bSgsT2x5xMvs8mara5wU_EJwcyHa9GVMU85HwhWcdWM=.hash",
@@ -206,9 +231,19 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=.hash",
-      "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Logging.Abstractions.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/SnlpX7tqR4Or48_LUVR7CMv3xLhjy1JBnmDfQCb2GwM=.hash",
+      "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Blazored.Toast.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Blazored.Toast.dll.br"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/C0KrMmLQQE68cd1_FNwIOW89nNGbOH48hRxQAoSBaaA=.hash",
+      "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/BlazorInputFile.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/BlazorInputFile.dll.br"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash",
+      "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.JSInterop.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.dll.br"
     },
     {
       "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/gQ426UT1KXJeey3VxWzfD6c7ocifAHkIU0XJHD1396k=.hash",
@@ -224,41 +259,6 @@
       "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/7_FtaZd2xSysaMLC59XhYdtkNMZ15ha0lk73dxPdT5w=.hash",
       "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Blazored.LocalStorage.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Blazored.LocalStorage.dll.br"
-    },
-    {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/rvTW0d54uLW0iDMAX30lpmr9f8uHoS3YYkEU5zNGhyc=.hash",
-      "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Options.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
-    },
-    {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/y-FyJQOcW2TOcTp7Iuv8brGBzL5ZP0oJdG7ysK_gtKc=.hash",
-      "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Primitives.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Primitives.dll.br"
-    },
-    {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash",
-      "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.JSInterop.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.dll.br"
-    },
-    {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/SnlpX7tqR4Or48_LUVR7CMv3xLhjy1JBnmDfQCb2GwM=.hash",
-      "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Blazored.Toast.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Blazored.Toast.dll.br"
-    },
-    {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/C0KrMmLQQE68cd1_FNwIOW89nNGbOH48hRxQAoSBaaA=.hash",
-      "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/BlazorInputFile.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/BlazorInputFile.dll.br"
-    },
-    {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/4NUQ26HmvXRi8smc0jz9940OUECDLQnoMWQLrMLe0ok=.hash",
-      "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.AspNetCore.Authorization.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Authorization.dll.br"
-    },
-    {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/825GQI5nG1C1WqLD1SNKSpjzLCNbH2-KChgjBL0SSXI=.hash",
-      "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.AspNetCore.Metadata.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Metadata.dll.br"
     },
     {
       "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/5lY1KL-pA7kS-OYycrkrhkXJKFHJHVbdmUTyPYaqDiM=.hash",
@@ -321,7 +321,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/6co9SzZWE_WueiiRQUEnU7Ut-c6NAhAUMqUiwwsr4Io=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/Ec5zeJHmEYfK29XsYD8-Q0OtPOfO4JQmJSCr9J1HjTA=.hash",
       "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/BookStore-UI.WASM.pdb",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/BookStore-UI.WASM.pdb.br"
     },
@@ -346,12 +346,12 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/6DPgnlkU6tyrF7iwMTTUBRhB8IBUTM1c0YHjYVy5d78=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/iW3hubKdISuK8bCl9CpZ4SyRdbSwMUumglKAWDFaxOw=.hash",
       "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/blazor.boot.json",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.boot.json.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/diVNVdsoUWRBuoUHREPBfz9GbyfUc9AIWVsyff040bs=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/xmUY-ZgM4O6AOmKZefiXgwPGsPr3B865iwwt8aMGOGg=.hash",
       "Source": "\/home\/cannonjw\/Projects\/BookStore\/BookStore-UI.WASM\/obj\/Debug\/netstandard2.1\/blazor\/service-worker-assets.js",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/service-worker-assets.js.br"
     }

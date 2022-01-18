@@ -1,0 +1,19 @@
+2020-10-24 09:52:50.7040 INFO Users - Login: Login Attempt from user cannonjw@gmail.com 
+2020-10-24 09:52:50.7947 INFO Users - Login: cannonjw@gmail.com Not Authenticated
+2020-10-24 09:52:57.8792 INFO Users - Login: Login Attempt from user cannonjw@gmail.com 
+2020-10-24 09:52:57.8956 INFO Users - Login: cannonjw@gmail.com Not Authenticated
+2020-10-24 09:53:03.1933 INFO Users - Login: Login Attempt from user cannonjw@gmail.com 
+2020-10-24 09:53:03.2357 INFO Users - Login: cannonjw@gmail.com Not Authenticated
+2020-10-24 09:53:41.9304 INFO Users - Login: Login Attempt from user cannonjw@gmail.com 
+2020-10-24 09:53:42.0814 INFO Users - Login: cannonjw@gmail.com Successfully Authenticated
+2020-10-24 09:53:42.0875 ERROR Users - Login: Sequence contains more than one element - 
+2020-10-24 09:59:21.3901 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-10-24 09:59:21.3985 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-10-24 09:59:25.1026 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-10-24 09:59:25.1128 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-10-24 09:59:27.7544 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-10-24 09:59:27.7754 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-10-24 09:59:35.7126 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-10-24 09:59:35.7358 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-10-24 10:00:07.3581 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-10-24 10:00:07.3954 INFO Users - Login: admin@bookstore.com Not Authenticated

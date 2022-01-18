@@ -2,7 +2,8 @@
   "runtimeOptions": {
     "additionalProbingPaths": [
       "/home/cannonjw/.dotnet/store/|arch|/|tfm|",
-      "/home/cannonjw/.nuget/packages"
+      "/home/cannonjw/.nuget/packages",
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
     ]
   }
 }

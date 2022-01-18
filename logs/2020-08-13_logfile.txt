@@ -1,0 +1,16 @@
+2020-08-13 07:50:37.4781 INFO Users - Login: Login Attempt from user mike@kahnsoft.org 
+2020-08-13 07:50:37.7525 INFO Users - Login: mike@kahnsoft.org Successfully Authenticated
+2020-08-13 07:50:37.7571 INFO Users - Login: Generating Token
+2020-08-13 07:53:16.7231 INFO GetAuthors
+2020-08-13 07:54:22.0578 INFO Users - Login: Login Attempt from user mike@kahnsoft.org 
+2020-08-13 07:54:22.0939 INFO Users - Login: mike@kahnsoft.org Successfully Authenticated
+2020-08-13 07:54:22.0967 INFO Users - Login: Generating Token
+2020-08-13 07:54:25.0435 INFO GetAuthors
+2020-08-13 07:54:26.9328 INFO  Books - GetBooks
+Get Books
+2020-08-13 07:54:35.7879 INFO  Books - GetBook: Attempted call for id: 6
+2020-08-13 07:54:35.9290 INFO GetAuthors
+2020-08-13 07:54:41.6118 INFO  Books - UpdateBook: Update Book
+2020-08-13 07:54:41.6276 INFO  Books - GetBooks
+Get Books
+2020-08-13 07:54:44.7359 INFO  Books - GetBook: Attempted call for id: 6

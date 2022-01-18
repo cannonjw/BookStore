@@ -361,40 +361,8 @@
 /home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/BookStore-UI.WASM.pdb
 /home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/blazor/serviceworkers/wwwroot/service-worker.js
 /home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/blazor/service-worker-assets.js
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/RazorDeclaration/Pages copy/Authors/Create.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/RazorDeclaration/Pages copy/Authors/Delete.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/RazorDeclaration/Pages copy/Authors/Edit.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/RazorDeclaration/Pages copy/Authors/Index.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/RazorDeclaration/Pages copy/Authors/View.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/RazorDeclaration/Pages copy/Books/Create.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/RazorDeclaration/Pages copy/Books/Delete.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/RazorDeclaration/Pages copy/Books/Edit.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/RazorDeclaration/Pages copy/Books/Index.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/RazorDeclaration/Pages copy/Books/View.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/RazorDeclaration/Pages copy/Counter.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/RazorDeclaration/Pages copy/Error.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/RazorDeclaration/Pages copy/Index.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/RazorDeclaration/Pages copy/Users/Login.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/RazorDeclaration/Pages copy/Users/Logout.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/RazorDeclaration/Pages copy/Users/Register.razor.g.cs
 /home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/RazorDeclaration/Shared/ErrorMessage.razor.g.cs
 /home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/RazorDeclaration/Shared/LoadingMessage.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/Razor/Pages copy/Authors/Create.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/Razor/Pages copy/Authors/Delete.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/Razor/Pages copy/Authors/Edit.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/Razor/Pages copy/Authors/Index.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/Razor/Pages copy/Authors/View.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/Razor/Pages copy/Books/Create.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/Razor/Pages copy/Books/Delete.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/Razor/Pages copy/Books/Edit.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/Razor/Pages copy/Books/Index.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/Razor/Pages copy/Books/View.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/Razor/Pages copy/Counter.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/Razor/Pages copy/Error.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/Razor/Pages copy/Index.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/Razor/Pages copy/Users/Login.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/Razor/Pages copy/Users/Logout.razor.g.cs
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/Razor/Pages copy/Users/Register.razor.g.cs
 /home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/Razor/Shared/ErrorMessage.razor.g.cs
 /home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/Razor/Shared/LoadingMessage.razor.g.cs
 /home/cannonjw/Projects/BookStore/BookStore-UI.WASM/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/Microsoft.IdentityModel.Tokens.dll
@@ -468,8 +436,7 @@
 /home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/compressed/_framework/_bin/Microsoft.AspNetCore.Authorization.dll.br
 /home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/compressed/_framework/_bin/Microsoft.AspNetCore.Metadata.dll.br
 /home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/compressed/_framework/_bin/Microsoft.AspNetCore.Components.Authorization.dll.br
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/integrity/KB3rVULxvGFfSShKkzMwkW1riqqoFA34XyXeP760Eaw=.hash
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/integrity/cOtQfqgHq1ahHQ8dAZhsUudQF3zeHnJw5qXZEwq-FYM=.hash
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/integrity/6co9SzZWE_WueiiRQUEnU7Ut-c6NAhAUMqUiwwsr4Io=.hash
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/integrity/6DPgnlkU6tyrF7iwMTTUBRhB8IBUTM1c0YHjYVy5d78=.hash
-/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/integrity/diVNVdsoUWRBuoUHREPBfz9GbyfUc9AIWVsyff040bs=.hash
+/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/integrity/ddHiOBMDYKgea4vqxQ4vBui-2WDWBL-tqzQGsNrktlE=.hash
+/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/integrity/Ec5zeJHmEYfK29XsYD8-Q0OtPOfO4JQmJSCr9J1HjTA=.hash
+/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/integrity/iW3hubKdISuK8bCl9CpZ4SyRdbSwMUumglKAWDFaxOw=.hash
+/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/Debug/netstandard2.1/integrity/xmUY-ZgM4O6AOmKZefiXgwPGsPr3B865iwwt8aMGOGg=.hash

@@ -13,6 +13,9 @@
         "packagesPath": "/home/cannonjw/.nuget/packages/",
         "outputPath": "/home/cannonjw/Projects/BookStore/BookStore-UI.WASM/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/home/cannonjw/.nuget/NuGet/NuGet.Config"
         ],
@@ -94,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
     }
