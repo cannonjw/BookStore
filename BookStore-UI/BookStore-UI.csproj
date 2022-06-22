@@ -4,7 +4,7 @@
     <RootNamespace>BookStore_UI</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3"/>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1"/>
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.7.1"/>
     <PackageReference Include="Blazored.LocalStorage" Version="3.0.0"/>
     <PackageReference Include="BlazorInputFile" Version="0.1.0-preview-00002"/>
